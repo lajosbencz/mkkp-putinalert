@@ -1,0 +1,16 @@
+{
+  "title": "MKKP Putin Alert",
+  "name": "mkkp-putin-alert",
+  "version": "0.1.5",
+  "description": "Orosz propaganda oldalak feketelistája.",
+  "main": "index.js",
+  "author": "lazos",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "permissions": {
+    "cross-domain-content": ["https://mkkp.lazos.me/"]
+  }
+}
